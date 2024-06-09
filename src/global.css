@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@font-face {
+  font-family: "SF Mono";
+  src: url("/public/SFMono-Semibold.otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "SF Mono";
+  src: url("/public/SFMono-Bold.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Termina Test";
+  src: url("/public/TerminaTest-Bold.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "SF Pro";
+  src: url("/public/SF-Pro-Display-Medium.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "SF Pro";
+  src: url("/public/SF-Pro-Display-Semibold.otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("/public/SF-Pro-Text-Regular.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("/public/SF-Pro-Text-Medium.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("/public/SF-Pro-Text-Semibold.otf");
+  font-weight: 600;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
